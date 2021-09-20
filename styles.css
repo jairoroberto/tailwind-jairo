@@ -1,0 +1,18 @@
+body{
+    padding:15px;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NODE_ENV=production npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css */
+/* npx tailwindcss -i styles.css -o ./src/css/tailwind.css */
+
+
+/* NODE_ENV=production npx tailwindcss -i styles.css -o ./src/css/tailwind.css  */
