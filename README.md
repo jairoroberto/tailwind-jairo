@@ -14,9 +14,6 @@
 > `npx tailwindcss -i styles.css -o ./src/css/tailwind.css --watch`
 ---
 
-#### ***Executar o comando***:
-> `npx tailwindcss -i styles.css -o ./src/css/tailwind.css --watch`
----
 
 #### ***Executar o comando para Criar o Prod ***:
 > `NODE_ENV=production npx tailwindcss -i styles.css -o ./src/css/tailwind.css`
